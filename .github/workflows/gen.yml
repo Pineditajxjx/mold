@@ -3,13 +3,17 @@ on:
   workflow_dispatch:
     inputs:
       count:
-        description: 'Cantidad (5-10 recomendado)'
-        default: '5'
+        description: 'Cantidad (máx 6 por tanda)'
+        default: '6'
         required: true
+      names:
+        description: 'Nombres exactos separados por coma (opcional, 3-12 car. c/u)'
+        default: ''
+        required: false
       name:
-        description: 'Nombre base'
+        description: 'Nombre base (solo si no usás lista)'
         default: 'US'
-        required: true
+        required: false
 permissions:
   contents: write
 jobs:
@@ -22,7 +26,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests pycryptodome
-      - run: python gen_run.py --count ${{ inputs.count }} --name "${{ inputs.name }}" --region US
+      - run: python gen_run.py --count ${{ inputs.count }} --names "${{ inputs.names }}" --name "${{ inputs.name }}" --region US
       - uses: actions/upload-artifact@v4
         if: always()
         with:

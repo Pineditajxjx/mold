@@ -1,10 +1,6 @@
-tvumbslf:44svc3tq3j9k@45.38.107.97:6014
-tvumbslf:44svc3tq3j9k@64.137.96.74:6641
-tvumbslf:44svc3tq3j9k@198.23.243.226:6361
-tvumbslf:44svc3tq3j9k@38.154.185.97:6370
-tvumbslf:44svc3tq3j9k@84.247.60.125:6095
-tvumbslf:44svc3tq3j9k@191.96.254.138:6185
-tvumbslf:44svc3tq3j9k@198.46.161.42:5092
-tvumbslf:44svc3tq3j9k@64.137.10.153:5803
-tvumbslf:44svc3tq3j9k@104.164.49.38:7693
-tvumbslf:44svc3tq3j9k@23.26.71.145:5628
+gqekymhw:nrrmb4neo4a@198.23.243.226:6361
+gqekymhw:nrrmb4neo4a@38.154.185.97:6370
+gqekymhw:nrrmb4neo4a@191.96.254.138:6185
+gqekymhw:nrrmb4neo4a@198.46.161.42:5092
+gqekymhw:nrrmb4neo4a@104.164.49.38:7693
+gqekymhw:nrrmb4neo4a@23.26.71.145:5628
